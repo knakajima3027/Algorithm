@@ -13,8 +13,8 @@ void Insertion_Sort(int A[], int n) {
     }
 
     for (int k = 0; k < n; k++) {
-    cout << A[k];
-    if (k != n - 1) cout << " ";
+      cout << A[k];
+      if (k != n - 1) cout << " ";
     }
 
     cout << endl;
